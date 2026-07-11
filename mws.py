@@ -28,5 +28,3 @@ def minWindow(s, t):
         return ""
         
     return s[res[0] : res[1] + 1]
-
-print(minWindow("OUZODYXAZV", "XYZ"))
