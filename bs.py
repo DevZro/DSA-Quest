@@ -5,7 +5,7 @@ def search(nums, target):
     r = len(nums) - 1
 
     while l <= r:
-        cur = (l + r) // 2
+        cur = l + (r - l) // 2 # avoiding overflow from (l + r) // 2
         if nums[cur] < target:
             l = cur + 1
         elif nums[cur] > target:
