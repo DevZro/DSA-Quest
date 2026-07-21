@@ -1,7 +1,7 @@
 # Longest Consecutive Sequence
 
 # Sol 1
-"""def longestConsecutive(nums):
+def longestConsecutive(nums):
     if len(nums) <= 1:
         return len(nums)
 
@@ -21,7 +21,7 @@
             length += 1
         score = max (length, score)
         
-    return score"""
+    return score
 
 # Sol 2
 def longestConsecutive(nums):

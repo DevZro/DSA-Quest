@@ -2,7 +2,7 @@
 
 import math
 
-def minEatingSpeed(self, piles: List[int], h: int) -> int:
+def minEatingSpeed(piles, h):
     m = max(piles)
     if len(piles) == h:
         return m

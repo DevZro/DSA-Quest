@@ -1,6 +1,6 @@
 # Valid Palindrome
 
-def isPalindrome(self, s: str) -> bool:
+def isPalindrome(s):
     if not any(char.isalnum() for char in s):
         return True
     
